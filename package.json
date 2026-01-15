@@ -1,0 +1,18 @@
+{
+  "name": "@btajuddin/node-red-s3-presign",
+  "version": "0.0.1",
+  "keywords": ["node-red", "s3", "presign"],
+  "author": "Brian Tajuddin",
+  "license": "ISC",
+  "description": "S3 presign node for Node-RED",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3",
+    "@aws-sdk/s3-request-presigner": "^3"
+  },
+  "node-red": {
+    "nodes": {
+      "presign": "presign/presign.js",
+      "presign-config": "config/config.js"
+    }
+  }
+}
