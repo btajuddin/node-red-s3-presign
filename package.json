@@ -5,6 +5,9 @@
   "author": "Brian Tajuddin",
   "license": "ISC",
   "description": "S3 presign node for Node-RED",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@aws-sdk/client-s3": "^3",
     "@aws-sdk/s3-request-presigner": "^3"
